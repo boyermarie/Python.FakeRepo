@@ -18,7 +18,8 @@ class TestCalcul(unittest.TestCase):
         self.assertEqual(soustraire(2, 2), 0)
         self.assertEqual(soustraire(2, 0), 2)
         self.assertEqual(soustraire(0, 2), -2)
-
+        self.assertEqual(soustraire(10, 2), 8)
+        
     def test_ajouter_puis_multiplier(self):
         self.assertEqual(ajouter_puis_multiplier(
             1, 2, 3), 9)      # (1+2)*3 = 9
